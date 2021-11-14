@@ -20,7 +20,7 @@ const About = () => {
               <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt className="text-sm font-medium text-gray-500">Full name</dt>
                 <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                  Mahmudul Haque Qudrati
+                  Mahmudul Haque Shohag
                 </dd>
               </div>
               <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -36,7 +36,7 @@ const About = () => {
                   Email address
                 </dt>
                 <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                  picowf@gmail.com
+                  mahmulhasanshohag219@gmail.com
                 </dd>
               </div>
               <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -50,7 +50,7 @@ const About = () => {
               <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt className="text-sm font-medium text-gray-500">About</dt>
                 <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                  Mahmudul Haque Qudrati is a full stack web developer. He has a
+                  Mahmudul Haque Shohag is a full stack web developer. He has a
                   lot experience in web design and development. Feel free to
                   contact to hire him and get your services now.
                 </dd>

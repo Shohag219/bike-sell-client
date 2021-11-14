@@ -6,7 +6,9 @@ const MyOrder = () => {
   const { user } = useAuth();
   const [orders, setOrders] = useState([]);
   useEffect(() => {
-    fetch(`https://drone-sales-2021.herokuapp.com/order?email=${user.email}`)
+    fetch(
+      `https://serene-plateau-24916.herokuapp.com/order?email=${user.email}`
+    )
       .then((res) => res.json())
       .then((data) => {
         setOrders(data);
@@ -17,7 +19,7 @@ const MyOrder = () => {
   const handleDeleteUser = (id) => {
     const proceed = window.confirm("Are You sure You want to DELETE?");
     if (proceed) {
-      fetch(`https://drone-sales-2021.herokuapp.com/orders/${id}`, {
+      fetch(`https://serene-plateau-24916.herokuapp.com/orders/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())

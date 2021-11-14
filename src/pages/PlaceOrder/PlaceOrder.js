@@ -22,7 +22,7 @@ const PlaceOrder = () => {
     };
     reset();
     // send data to server
-    fetch(`https://drone-sales-2021.herokuapp.com/orders`, {
+    fetch(`https://serene-plateau-24916.herokuapp.com/orders`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -39,7 +39,7 @@ const PlaceOrder = () => {
 
   const { id } = useParams();
   useEffect(() => {
-    fetch(`https://drone-sales-2021.herokuapp.com/products/${id}`)
+    fetch(`https://serene-plateau-24916.herokuapp.com/products/${id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [id]);

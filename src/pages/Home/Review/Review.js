@@ -17,7 +17,7 @@ SwiperCore.use([Navigation]);
 const Review = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("https://drone-sales-2021.herokuapp.com/reviews")
+    fetch("https://serene-plateau-24916.herokuapp.com/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);

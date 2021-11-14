@@ -112,7 +112,7 @@ const useFirebase = () => {
   // save the user to database
   const saveUser = (email, displayName, method) => {
     const user = { email, displayName };
-    fetch(`https://drone-sales-2021.herokuapp.com/users`, {
+    fetch(`https://serene-plateau-24916.herokuapp.com/users`, {
       method: method,
       headers: {
         "content-type": "application/json",
@@ -123,7 +123,7 @@ const useFirebase = () => {
 
   // load data for admin
   useEffect(() => {
-    fetch(`https://drone-sales-2021.herokuapp.com/users/${user.email}`)
+    fetch(`https://serene-plateau-24916.herokuapp.com/users/${user.email}`)
       .then((res) => res.json())
       .then((data) => setAdmin(data.admin));
   }, [user.email]);
