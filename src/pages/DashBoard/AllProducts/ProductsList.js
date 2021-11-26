@@ -1,12 +1,12 @@
 import React from "react";
 
 const ProductsList = ({ product, handleDeleteUser }) => {
-  const { _id, name, img, price } = product;
+  const { _id, name, image, price } = product;
 
   return (
     <div className="py-2 flex flex-col  lg:flex-row md:flex-row orders items-center ">
       <div className=" flex  items-center py-2">
-        <img className="h-28 w-32 rounded-lg" src={img} alt="" />
+        <img className="h-28 w-32 rounded-lg" src={image} alt="" />
         <div className="px-4">
           <h2>Product : {name}</h2>
           <p>Price: ${price}</p>

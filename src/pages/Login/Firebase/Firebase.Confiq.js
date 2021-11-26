@@ -1,10 +1,9 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyDUwxM3TYGknCi8FYZPu9t4Gb6QDHbo95Y",
-  authDomain: "drone-sale-3ef99.firebaseapp.com",
-  projectId: "drone-sale-3ef99",
-  storageBucket: "drone-sale-3ef99.appspot.com",
-  messagingSenderId: "744278069748",
-  appId: "1:744278069748:web:fdba2d20d2bdf820a569a1",
-  measurementId: "G-QWDLGZ9EGY",
+  apiKey: "AIzaSyBcAKgmN0ssc6BvZTMJM3cpOd2xM4NvqJk",
+  authDomain: "bikesell-new.firebaseapp.com",
+  projectId: "bikesell-new",
+  storageBucket: "bikesell-new.appspot.com",
+  messagingSenderId: "614147425697",
+  appId: "1:614147425697:web:6a855fb50427880739f7e0"
 };
 export default firebaseConfig;

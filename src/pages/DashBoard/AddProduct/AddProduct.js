@@ -8,7 +8,7 @@ const AddProduct = () => {
     reset();
 
     // send data to the server
-    fetch("https://serene-plateau-24916.herokuapp.com/products", {
+    fetch("https://secret-woodland-76049.herokuapp.com/products", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -57,7 +57,7 @@ const AddProduct = () => {
         <input
           className="reviewInput border border-purple-400 w-full sm:w-3/4 md:w-2/4 lg:w-2/4 px-2 py-2 my-1 rounded-md mx-auto"
           placeholder="Image Link"
-          {...register("img")}
+          {...register("image")}
         />
         <div className="flex justify-center">
           <textarea

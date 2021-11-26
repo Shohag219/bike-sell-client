@@ -43,11 +43,11 @@ const Navigation = () => {
                   />
                   <img
                     className="hidden lg:block h-8 w-auto"
-                    src="https://cdn-icons-png.flaticon.com/512/3180/3180151.png"
+                    src="https://cdn-icons-png.flaticon.com/512/565/565350.png"
                     alt="Workflow"
                   />
                   <span className="text-lg  text-white ml-2 logo-text">
-                    Dream Drone
+                    Dream Bike
                   </span>
                 </div>
                 <div className="hidden md:block sm:ml-6">

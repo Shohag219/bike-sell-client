@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const SingleExplore = ({ product }) => {
-  const { _id, name, img, description, price } = product;
+  const { _id, name, image, description, price } = product;
 
   return (
     <div className=" h-11/12 lg:h-auto  mx-auto md:h-auto bg-white rounded-xl shadow-md overflow-hidden ">
@@ -10,7 +10,7 @@ const SingleExplore = ({ product }) => {
         <div className="md:flex-shrink-0">
           <img
             className="h-48 w-full object-cover md:h-full md:w-48"
-            src={img}
+            src={image}
             alt="Man looking at item at a store"
           />
         </div>

@@ -7,7 +7,7 @@ const MyOrder = () => {
   const [orders, setOrders] = useState([]);
   useEffect(() => {
     fetch(
-      `https://serene-plateau-24916.herokuapp.com/order?email=${user.email}`
+      `https://secret-woodland-76049.herokuapp.com/order?email=${user.email}`
     )
       .then((res) => res.json())
       .then((data) => {
@@ -19,7 +19,7 @@ const MyOrder = () => {
   const handleDeleteUser = (id) => {
     const proceed = window.confirm("Are You sure You want to DELETE?");
     if (proceed) {
-      fetch(`https://serene-plateau-24916.herokuapp.com/orders/${id}`, {
+      fetch(`https://secret-woodland-76049.herokuapp.com/orders/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())

@@ -7,7 +7,7 @@ const ManageAllOrders = () => {
   const { isLoading } = useAuth();
   const [orders, setOrders] = useState([]);
   useEffect(() => {
-    fetch("https://serene-plateau-24916.herokuapp.com/orders")
+    fetch("https://secret-woodland-76049.herokuapp.com/orders")
       .then((res) => res.json())
       .then((data) => {
         setOrders(data);
@@ -18,7 +18,7 @@ const ManageAllOrders = () => {
   const handleDeleteUser = (id) => {
     const proceed = window.confirm("Are You sure You want to DELETE?");
     if (proceed) {
-      fetch(`https://serene-plateau-24916.herokuapp.com/orders/${id}`, {
+      fetch(`https://secret-woodland-76049.herokuapp.com/orders/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
@@ -34,7 +34,7 @@ const ManageAllOrders = () => {
   // update order status
   const handleUpdate = (id) => {
     console.log("clicked", id);
-    fetch(`https://serene-plateau-24916.herokuapp.com/orders/update/${id}`, {
+    fetch(`https://secret-woodland-76049.herokuapp.com/orders/update/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

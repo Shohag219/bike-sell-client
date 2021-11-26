@@ -6,7 +6,7 @@ import SingleExplore from "./SingleExplore/SingleExplore";
 const Explore = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("https://serene-plateau-24916.herokuapp.com/products")
+    fetch("https://secret-woodland-76049.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

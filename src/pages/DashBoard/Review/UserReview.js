@@ -10,7 +10,7 @@ const UserReview = () => {
     reset();
 
     // send data to the server
-    fetch("https://serene-plateau-24916.herokuapp.com/reviews", {
+    fetch("https://secret-woodland-76049.herokuapp.com/reviews", {
       method: "POST",
       headers: {
         "content-type": "application/json",

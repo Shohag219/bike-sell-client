@@ -9,7 +9,7 @@ import "./PlaceOrder.css";
 const PlaceOrder = () => {
   const [orderSuccess, setOrderSuccess] = useState(false);
   const [product, setProduct] = useState({});
-  const { name, img, price } = product;
+  const { name, image, price } = product;
   const { user } = useAuth();
   const { displayName, email } = user;
 
@@ -18,11 +18,11 @@ const PlaceOrder = () => {
     data.info = {
       productName: name,
       price: price,
-      img: img,
+      img: image,
     };
     reset();
     // send data to server
-    fetch(`https://serene-plateau-24916.herokuapp.com/orders`, {
+    fetch(`https://secret-woodland-76049.herokuapp.com/orders`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -39,7 +39,7 @@ const PlaceOrder = () => {
 
   const { id } = useParams();
   useEffect(() => {
-    fetch(`https://serene-plateau-24916.herokuapp.com/products/${id}`)
+    fetch(`https://secret-woodland-76049.herokuapp.com/products/${id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [id]);
@@ -55,7 +55,7 @@ const PlaceOrder = () => {
           <div className="  py-4 h-96 mx-auto">
             <img
               className="h-full w-11/12 rounded-lg mx-auto"
-              src={img}
+              src={image}
               alt=""
             />
           </div>

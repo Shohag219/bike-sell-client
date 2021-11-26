@@ -7,11 +7,11 @@ const TopBanner = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
           <div className="sm:max-w-lg">
             <h1 className="uppercase  lg:text-5xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
-              drone that changes the game
+              Bike that changes the game
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              Best for photography and get mindblowing travel experience form
-              our drones. we are currently running some research.
+              The bicycle is a fascinating machine with many parts - so many, in
+              fact, ... Use the photo and descriptions below as your guide.
             </p>
           </div>
           <div>
@@ -26,14 +26,14 @@ const TopBanner = () => {
                     <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="w-44 h-56 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                         <img
-                          src="https://i.ibb.co/CMmPZGL/pexels-screen-post-7582145.jpg"
+                          src="https://images.unsplash.com/photo-1525160354320-d8e92641c563?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
                           alt=""
                           className="w-full h-full object-center object-cover"
                         />
                       </div>
                       <div className="w-44 h-56 rounded-lg overflow-hidden">
                         <img
-                          src="https://images.unsplash.com/photo-1524143986875-3b098d78b363?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                          src="https://images.unsplash.com/photo-1508357941501-0924cf312bbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                           alt=""
                           className="w-full h-full object-center object-cover"
                         />
@@ -42,21 +42,21 @@ const TopBanner = () => {
                     <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="w-44 h-56 rounded-lg overflow-hidden">
                         <img
-                          src="https://images.unsplash.com/photo-1533309907656-7b1c2ee56ddf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=452&q=80"
+                          src="https://images.unsplash.com/photo-1517846693594-1567da72af75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
                           alt=""
                           className="w-full h-full object-center object-cover"
                         />
                       </div>
                       <div className="w-44 h-56 rounded-lg overflow-hidden">
                         <img
-                          src="https://images.unsplash.com/photo-1615178681722-dba718265c87?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=345&q=80"
+                          src="https://images.unsplash.com/photo-1609630875171-b1321377ee65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=380&q=80"
                           alt=""
                           className="w-full h-full object-center object-cover"
                         />
                       </div>
                       <div className="w-44 h-56 rounded-lg overflow-hidden">
                         <img
-                          src="https://images.unsplash.com/photo-1527977966376-1c8408f9f108?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80"
+                          src="https://images.unsplash.com/photo-1531327431456-837da4b1d562?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80"
                           alt=""
                           className="w-full h-full object-center object-cover"
                         />
@@ -72,7 +72,7 @@ const TopBanner = () => {
                       </div>
                       <div className="w-44 h-56 rounded-lg overflow-hidden">
                         <img
-                          src="https://images.unsplash.com/photo-1618147913400-e50e2f771942?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80"
+                          src="https://images.unsplash.com/photo-1568772585432-0bcd9add44f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"
                           alt=""
                           className="w-full h-full object-center object-cover"
                         />

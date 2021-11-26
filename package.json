@@ -1,5 +1,5 @@
 {
-  "name": "assainment-12",
+  "name": "assaingment-test-12",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,12 +10,12 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "firebase": "^9.4.0",
+    "firebase": "^9.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-hook-form": "^7.19.4",
+    "react-hook-form": "^7.19.5",
     "react-rating": "^2.0.5",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "sass": "^1.43.4",
     "swiper": "^7.2.0",

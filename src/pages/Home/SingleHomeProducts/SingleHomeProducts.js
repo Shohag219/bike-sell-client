@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const SingleHomeProducts = ({ product }) => {
-  const { _id, name, img, description, price } = product;
+  const { _id, name, image, description, price } = product;
   const newDescription = description.slice(0, 100);
   return (
     <>
       <div>
-        <img className="rounded h-64" src={img} alt="" />
+        <img className="rounded h-64" src={image} alt="" />
         <div className=" py-2">
           <h2 className="font-bold text-lg">{name}</h2>
           <p className="text-gray-500">{newDescription}</p>

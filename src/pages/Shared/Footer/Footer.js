@@ -9,7 +9,7 @@ const Footer = () => {
             <h2 className="font-semibold text-2xl custom-font mb-6">INFO</h2>
 
             <i className="fas my-2 flex fa-square">
-              <p className="ml-2 font-sans font-normal	">The Eygle's Eye</p>
+              <p className="ml-2 font-sans font-normal	">The Bikes</p>
             </i>
 
             <i className="fas flex fa-square">
@@ -17,24 +17,24 @@ const Footer = () => {
             </i>
 
             <i className="fas my-2 flex fa-square">
-              <p className="ml-2 font-sans font-normal	">Best for Photography</p>
+              <p className="ml-2 font-sans font-normal	">Best for Ride</p>
             </i>
           </div>
         </div>
         <div className="">
           <div>
-            <h2 className="font-semibold text-2xl custom-font mb-6">DRONES</h2>
+            <h2 className="font-semibold text-2xl custom-font mb-6">BIkes</h2>
 
             <i className="fas my-2 flex fa-square">
-              <p className="ml-2 font-sans font-normal	">Dji Mavic 3</p>
+              <p className="ml-2 font-sans font-normal	">R 15</p>
             </i>
 
             <i className="fas flex fa-square">
-              <p className="ml-2 font-sans font-normal	">Ryze Tello</p>
+              <p className="ml-2 font-sans font-normal	">Hyabusa</p>
             </i>
 
             <i className="fas my-2 flex fa-square">
-              <p className="ml-2 font-sans font-normal	">PowerVision</p>
+              <p className="ml-2 font-sans font-normal	">BMW</p>
             </i>
           </div>
         </div>
