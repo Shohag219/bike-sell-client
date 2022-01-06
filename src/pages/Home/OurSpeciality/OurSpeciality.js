@@ -23,7 +23,8 @@ const OurSpeciality = () => {
               18 gears is an 18-speed bike. Bikes generally have 1, 3, 18, 21,
               24, or 27 speeds. (10- and 15-speeds are obsolete and you don't
               see them on new bikes anymore.) Lower numbers are the low gears,
-              and higher numbers are the high gears.
+              and higher numbers are the high gears. The Dream bike fill your
+              dream.
             </p>
             <a href="#products">
               <button className="font-semibold my-2 rounded px-4 py-2 bg-purple-700 text-white">

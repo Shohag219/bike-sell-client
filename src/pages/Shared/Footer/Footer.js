@@ -9,7 +9,7 @@ const Footer = () => {
             <h2 className="font-semibold text-2xl custom-font mb-6">INFO</h2>
 
             <i className="fas my-2 flex fa-square">
-              <p className="ml-2 font-sans font-normal	">The Bikes</p>
+              <p className="ml-2 font-sans font-normal	">The Dream Bikes</p>
             </i>
 
             <i className="fas flex fa-square">
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
         <div className="">
           <div>
-            <h2 className="font-semibold text-2xl custom-font mb-6">LINKS</h2>
+            <h2 className="font-semibold text-2xl custom-font mb-6">Links</h2>
 
             <i className="fas my-2 flex fa-square">
               <p className="ml-2 font-sans font-normal	">About</p>

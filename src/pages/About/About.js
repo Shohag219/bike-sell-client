@@ -26,7 +26,7 @@ const About = () => {
               Customar setisfection is our main priority
             </a>
             <p class="mt-2 text-gray-500">
-              Beyond bicycles, a local bicycle shop may offer clothing and other
+              Dream Bike, a local bicycle shop may offer clothing and other
               accessories, spare and replacement parts, tools, and a variety of
               services. Services may include expert fitting and custom bike
               building or ordering, maintenance and repairs from experienced

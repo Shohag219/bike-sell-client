@@ -24,7 +24,7 @@ const Review = () => {
   return (
     <div className="py-4">
       <h2 className="text-3xl text-purple-500 my-4 text-center review-text">
-        Client Reviews
+        What Clients Says
       </h2>
 
       <Swiper navigation={true} className="">
